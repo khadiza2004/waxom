@@ -1,0 +1,134 @@
+/* All Common css start */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box; 
+}
+ul,ol {
+  list-style-type: none;
+}
+a,a:hover{
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+  padding: 0;
+  margin: 0;
+  line-height: 0.8;
+}
+/* All Common css End*/
+
+/* Header_part_start */
+.navbar {
+	padding-top: 35px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  z-index: 999;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	color: #fff;
+  font-size: 14x;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  transition: .5s;
+}
+.navbar-expand-lg .navbar-nav .nav-item:hover .nav-link{
+  color:#c7b299;
+}
+/* Header_part_End */
+
+/*banner_part_start */
+#banner_part{
+  background: url(../images/Banner.jpg);
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+.banner_overlay{
+  background: rgba(0, 0, 0, 0.7);
+  padding: 380px 0px;
+}
+.banner_text h3{
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+
+}
+.banner_text h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 52px;
+  font-weight: 800;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.banner_text p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  padding: 0 115px;
+  padding-bottom: 50px;
+}
+.banner_text a{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  padding-top: 21px;
+  padding-bottom: 18px;
+  padding-left:35px;
+  padding-right:35px;
+  background: #998675;
+  border-bottom: 3px solid #736357;
+  border-radius: 3px;
+  color: #fff;
+}
+
+
+
+/*banner_part_End */
+
+/*service_part_start */
+#service_part{
+  padding: 80px 0px;
+}
+.service_item{
+  text-align: center;
+}
+.service_icon i{
+  font-size: 50px;
+  margin: 0 auto;
+}
+.service_text h3{
+  font-family: 'Raleway', sans-serif;
+  font-size: 22PX;
+  font-weight: 600;
+  color: #555555;
+}
+.service_text P{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #8c8c8c;
+}
+/*service_part_End */
+
+/* Header_part_start */
+/* Header_part_End */
+
+/* Header_part_start */
+/* Header_part_End */
+
+/* Header_part_start */
+/* Header_part_End */
+
+/* Header_part_start */
+/* Header_part_End */
+
+/* Header_part_start */
+/* Header_part_End */
+
+/* Header_part_start */
+/* Header_part_End */
